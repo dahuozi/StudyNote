@@ -1,4 +1,7 @@
+[TOC]
+
 # git版本管理工具学习记录  
+
 ---
 #### 基础操作  
 ---
@@ -28,5 +31,22 @@
 - HEAD指向的版本就是当前版本，git reset --hard commit_id即可回退到指定版本。
 - git reflog 查看历史指令
 
+#### 分支操作
+##### 创建分支dev  
+>git branch dev  
 
+##### 切换分支dev  
+>git checkout dev
+
+##### 查看分支  
+>git branch 
+
+##### 创建选择分支  
+>git checkout -b dev
+
+##### 快速合并分支到
+>git  merge dev (dev是领先的分支，合并带领先分支)
+
+##### 删除分支dev
+>git branch -d dev
 
