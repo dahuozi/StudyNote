@@ -22,5 +22,11 @@
 
 &emsp;&emsp;当我们进行git add的时候，其实是把文件添加进了暂存区；当git commit的时候，就把文件添加进入了当前分支；git push则是进行推送到远程分支；  
 
+##### 查看提交日志  
+>git log  （--pretty=oneline）
+
+- HEAD指向的版本就是当前版本，git reset --hard commit_id即可回退到指定版本。
+- git reflog 查看历史指令
+
 
 
