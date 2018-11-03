@@ -1,5 +1,4 @@
 [TOC]
-
 # git版本管理工具学习记录  
 
 ---
@@ -48,6 +47,15 @@
 >git  merge dev (dev是领先的分支，合并带领先分支)
 
 ##### 删除分支dev
->git branch -d dev
+>git branch -d dev  
+
+##### 存放
+>git stash  
+
+##### 查看存放
+>git stash list
+
+##### 恢复指定stash
+>git stash apply stash@{0}
 
 
